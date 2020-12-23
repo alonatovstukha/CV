@@ -150,7 +150,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 900px
+  padding-right: 100px;
+
+  /* width: 900px */
 }
 
 .right-part-element-education {
@@ -177,19 +179,21 @@
 }
 
 .right-part-container {
-  margin-left: 50px;
-  width: 900px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+
+  margin-bottom: 20px;
+  /* width: 900px; */
 }
 
 .checkmark {
   width: 15px;
   height: 15px;
-}
-
-.contact-me {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  margin-right: 5px;
 }
 
 .email-phone {
@@ -201,14 +205,15 @@
   display: flex;
   align-items: center;
   height: 50px;
-  padding-left: 0;
+  padding-left: 40px;
   padding-right: 0;
+  margin-bottom: 10px;
 }
 
 .contact-me-image {
   width: 30px;
   height: 30px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .right-part-header {
@@ -216,43 +221,4 @@
   font-weight: 600;
 }
 
-.progress-container {
-  padding-left: 30px;
-  padding-right: 30px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.progress-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.progress-element {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-}
-
-
- progress {   
-  color: #F8BB10;
-  width: 300px;
-  height: 5px;
-  border: none;
-  background: #e5e5e5;
-} 
-
-.progress-header {
-  font-size: larger;
-}
-
-.progress-header span {
-  color: #F8BB10;
-  font-weight: 600;
-}
-
-progress::-moz-progress-bar { background: #F8BB10; }
-progress::-webkit-progress-bar { background:  #e5e5e5; }
-progress::-webkit-progress-value { background: #F8BB10; }
 
