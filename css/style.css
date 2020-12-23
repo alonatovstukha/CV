@@ -7,8 +7,6 @@
   background-color: #fbfbfb;
   width: 480px;
   min-width: 480px;
-
-  /* width: 35%; */
   height: 600px;
   display: flex;
   justify-content: center;
@@ -50,8 +48,6 @@
 }
 
 .who-links {
-  /* padding-left: 10px; */
-  /* width: 800px; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -79,9 +75,7 @@
 .contacts {
   display: flex;
   justify-content: space-between;
-  /* padding-left: 10px; */
   padding-top: 50px;
-  /* width: 800px; */
 }
 
 .contacts-item {
@@ -103,7 +97,6 @@
 .left-part {
   width: 480px;
   min-width: 480px;
-  /* width: 35%; */
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -132,8 +125,9 @@
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  
   width: 1050px;
+  min-width: 1050px;
+  max-width: 1050px;
 }
 
 .about-me {
