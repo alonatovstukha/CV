@@ -103,7 +103,7 @@
   align-items: flex-end;
 }
 
-.intro {
+.left-dark-grey-background {
   background-color: #f8f8f8;
 }
 
@@ -130,7 +130,7 @@
   max-width: 1050px;
 }
 
-.about-me {
+.right-grey-background {
   background-color: #fafafa;
 }
 
@@ -142,7 +142,7 @@
 
 }
 
-.education {
+.left-light-grey-background {
   background-color: #fbfbfb;
 }
 
@@ -151,8 +151,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding-right: 100px;
-
-  /* width: 900px */
 }
 
 .right-part-element-education {
@@ -185,9 +183,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding-right: 100px;
-
   margin-bottom: 20px;
-  /* width: 900px; */
 }
 
 .checkmark {
