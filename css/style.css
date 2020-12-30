@@ -1,220 +1,221 @@
 .picture-contacts-section {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .picture-section {
-  background-color: #fbfbfb;
-  width: 480px;
-  min-width: 480px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #fbfbfb;
+    width: 480px;
+    min-width: 480px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contacts-section {
-  font-family: 'Work Sans', sans-serif;
-  padding-left: 50px;
-  width: 900px;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 50px;
+    width: 900px;
 }
 
 .me-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 .name {
-  display: flex;
-  flex-direction: column;
-  font-size: 50px;
-  padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    padding-bottom: 30px;
 }
 
 .first-name {
-  color: #7d7d7f;
+    color: #7d7d7f;
 }
 
 .last-name {
-  color: #F8BB10;
-  font-size: 55px;
-  font-weight: bolder;
+    color: #F8BB10;
+    font-size: 55px;
+    font-weight: bolder;
 }
 
 .position {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .who-links {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .links {
-  display: flex;
-  justify-content: space-between;
-  width: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
 }
 
 .link-image {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .who-links:after {
-  content: "";
-  width: 900px;
-  height: 1px;
-  margin-top: 20px;
-  background-color: #c7c7c9;
+    content: "";
+    width: 900px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #c7c7c9;
 }
 
 .contacts {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
 }
 
 .contacts-item {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-header {
-  font-weight: bolder;
-  padding-bottom: 5px;
+    font-weight: bolder;
+    padding-bottom: 5px;
 }
 
 .new-section {
-  font-family: 'Work Sans', sans-serif;
-  color: #606061;
-  display: flex;
+    font-family: 'Work Sans', sans-serif;
+    color: #606061;
+    display: flex;
 }
 
 .left-part {
-  width: 480px;
-  min-width: 480px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+    width: 480px;
+    min-width: 480px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .left-dark-grey-background {
-  background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .left-part-header {
-  padding-top: 50px;
-  padding-right: 50px;
-  font-weight: bold;
-  font-size: 23px;
-  color: #606061;
-  padding-bottom: 5px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #606061;
+    padding-bottom: 5px;
 }
 
 .left-part-text {
-  padding-right: 50px;
-  font-size: 18px;
+    padding-right: 50px;
+    font-size: 18px;
 }
 
 .right-part {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  width: 1050px;
-  min-width: 1050px;
-  max-width: 1050px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    min-width: 1050px;
+    max-width: 1050px;
 }
 
 .right-grey-background {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 .right-part-element {
-  padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 18px;
-
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
 }
 
 .left-light-grey-background {
-  background-color: #fbfbfb;
+    background-color: #fbfbfb;
 }
 
 .right-part-education {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
 }
 
 .right-part-element-education {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
 }
 
 .education-images {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
 }
 
 .education-image {
-  width: 30px;
-  height: 30px;
-  padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
 }
 
 .education-images span {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .right-part-container {
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 100px;
-  margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 20px;
 }
 
 .checkmark {
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 .email-phone {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-me-element {
-  display: flex;
-  align-items: center;
-  height: 50px;
-  padding-left: 40px;
-  padding-right: 0;
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 0;
+    margin-bottom: 10px;
 }
 
 .contact-me-image {
-  width: 30px;
-  height: 30px;
-  padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
 }
 
 .right-part-header {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-
+.href-contact {
+    text-decoration: none;
+    color: #606061;
+}
