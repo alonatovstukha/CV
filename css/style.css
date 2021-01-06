@@ -56,11 +56,14 @@
     display: flex;
     justify-content: space-between;
     width: 70px;
+    padding-right: 50px;
+
 }
 
 .link-image {
     width: 30px;
     height: 30px;
+    margin-right: 10px;
 }
 
 .who-links:after {
